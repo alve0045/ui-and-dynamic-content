@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta Tags -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Linking Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+        <!-- Plugin Links -->
+        <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+
+        <!-- Personal Styles Linking  -->
+        <link rel="stylesheet" href="./css/styles.css">
+
+        <!-- Title  -->
+        <title>Grocery Shopping</title>
+
+    </head>
+
+    <body>
+        <!-- Widget container (start) -->
+        <div class="container">
+            <!-- Header (Start) -->
+            <header>
+                <div class="top-content">
+                    <div class="masthead">
+                        <img src="./img/grocery-icon.png" alt="">
+                    </div>
+                    <div class="title">
+                        <h1>Grocery <br> Shopping</h1>
+                    </div>
+                </div>
+            </header>
+            <!-- Header (End) -->
+
+            <!-- Main (Start) -->
+            <main>
+                <div class="input-box">
+                    <label for="input-list">What do you want to buy today?</label>
+                    <input id="input-list" type="text" name="input-list" placeholder="Your item here..." value="">
+                    <input id= "btn-add" type="button" name="btn-add" value="Add to list">
+                </div>
+                <ul id="dynamic-list"></ul>
+                <p class="feedback"></p>
+                <hr class="divider">
+            </main>
+            <!-- Main (End) -->
+            
+            <!-- Footer (Start) -->
+            <footer>
+                <ul class="social-icons">
+                    <li class="sm-icon"><a href="#" class="fa-brands fa-facebook-square"></a></li>
+                    <li class="sm-icon"><a href="#" class="fa-brands fa-twitter-square"></a></li>
+                    <li class="sm-icon"><a href="#" class="fa-brands fa-linkedin"></a></li>
+                </ul>
+            </footer>
+            <!-- Footer (End) -->
+        </div>
+        <!-- Widget container (end) -->
+    </body>
+    <!-- Scripts linking  -->
+    <script src="./js/index.js"></script>
+</html>
