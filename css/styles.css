@@ -61,6 +61,7 @@ html, body{
     font-size: 0.8rem;
     padding: 1rem;
     box-sizing: border-box;
+    border: 0.05rem solid #642714;
 }
 
 .top-content {
