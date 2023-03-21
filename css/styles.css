@@ -147,3 +147,44 @@ html, body{
     color: #E83700;
 }
 
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 768px) {
+
+    .masthead img {
+        width: 12rem;
+    }
+
+    .title h1{
+        font-size: 3.5rem;
+        line-height: 3.2rem;
+    }
+
+    .input-box label{
+        font-size: 1.2rem;
+    }
+
+    #input-list{
+        font-size: 1rem;
+    }
+
+    #btn-add {
+        font-size: 1.1rem;
+    }
+
+    #dynamic-list li {
+        font-size: 1.2rem;
+    }
+
+    #dynamic-list li::before {
+        top: 16px ;
+    }
+
+    .sm-icon {
+        font-size: 1.9rem;
+    }
+
+}
+
+
